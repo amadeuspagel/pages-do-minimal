@@ -1,0 +1,23 @@
+{
+  "name": "pages-do-minimal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": ["pages", "worker"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devpages": "npm run dev --workspace=pages",
+    "devworker": "npm run dev --workspace=worker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zegevlier/pages-do-minimal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zegevlier/pages-do-minimal/issues"
+  },
+  "homepage": "https://github.com/zegevlier/pages-do-minimal#readme"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx wrangler@beta pages dev dist --do HELLO_DURABLE=HelloDurable@pages-do-minimal"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
